@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27
+python-dotenv>=1.0
+icalendar>=5.0
+recurring-ical-events>=2.2
+tzdata>=2024.1   # zoneinfo data on Windows
+# Optional, only for VEHICLE_PROVIDER=saic:
+# saic-ismart-client-ng

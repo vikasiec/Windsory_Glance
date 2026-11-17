@@ -1,0 +1,9 @@
+services:
+  windsor-bridge:
+    build: .
+    env_file: .env
+    environment:
+      BIND_HOST: 0.0.0.0   # inside the container; the port mapping below restricts it to the LAN IP
+    ports:
+      - "192.168.1.50:8000:8000"   # change to your host's LAN IP
+    restart: unless-stopped

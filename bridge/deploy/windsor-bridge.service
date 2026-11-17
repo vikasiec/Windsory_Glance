@@ -1,0 +1,16 @@
+# Linux / Raspberry Pi: sudo cp deploy/windsor-bridge.service /etc/systemd/system/
+# then: sudo systemctl daemon-reload && sudo systemctl enable --now windsor-bridge
+[Unit]
+Description=Windsor Glance telemetry bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/windsor-glance/bridge
+ExecStart=/home/pi/windsor-glance/bridge/.venv/bin/python run_bridge.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

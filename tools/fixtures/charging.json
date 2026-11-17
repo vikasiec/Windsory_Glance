@@ -1,0 +1,51 @@
+{
+ "updated_at": "21:15",
+ "date": "Tue 17 Nov",
+ "sod": 76500,
+ "stale": false,
+ "ev": {
+  "model": "MG Windsor EV",
+  "soc": 46,
+  "range_km": 198,
+  "charging": true,
+  "plugged_in": true,
+  "charge_time_min": 95,
+  "locked": true,
+  "tire_psi": [
+   33,
+   33,
+   32,
+   33
+  ],
+  "cabin_temp_c": 27,
+  "polled_at": "21:05"
+ },
+ "weather": {
+  "location": "Pune",
+  "temp_c": 24,
+  "condition": "Partly cloudy",
+  "aqi": 82,
+  "aqi_cat": "Moderate",
+  "humidity": 48,
+  "hi": 31,
+  "lo": 17
+ },
+ "next_event": {
+  "title": "Architecture Sync",
+  "time": "Tmrw 10:00 AM"
+ },
+ "events": [
+  {
+   "title": "Architecture Sync",
+   "time": "Tmrw 10:00 AM"
+  },
+  {
+   "title": "School PTM",
+   "time": "Thu 4:30 PM"
+  },
+  {
+   "title": "MG service appointment Hada..",
+   "time": "Sat 11:00 AM"
+  }
+ ]
+}
